@@ -1,0 +1,22 @@
+export const players = [
+  { name: "Kevin De Bruyne", position: "MID", club: "Manchester City", points: 130 },
+  { name: "Erling Haaland", position: "FWD", club: "Manchester City", points: 175 },
+  { name: "Virgil van Dijk", position: "DEF", club: "Liverpool", points: 95 },
+  { name: "Lionel Messi", position: "FWD", club: "Inter Miami", points: 160 },
+  { name: "Alisson Becker", position: "GK", club: "Liverpool", points: 120 },
+  { name: "Bruno Fernandes", position: "MID", club: "Manchester United", points: 110 },
+  { name: "Cristiano Ronaldo", position: "FWD", club: "Al Nassr", points: 150 },
+  { name: "Raphaël Varane", position: "DEF", club: "Manchester United", points: 82 },
+  { name: "Robert Lewandowski", position: "FWD", club: "Barcelona", points: 165 },
+  { name: "João Cancelo", position: "DEF", club: "Barcelona", points: 92 },
+  { name: "Luka Modrić", position: "MID", club: "Real Madrid", points: 105 },
+  { name: "Ederson Moraes", position: "GK", club: "Manchester City", points: 115 },
+  { name: "Mohamed Salah", position: "FWD", club: "Liverpool", points: 155 },
+  { name: "Andrew Robertson", position: "DEF", club: "Liverpool", points: 90 },
+  { name: "Bernardo Silva", position: "MID", club: "Manchester City", points: 108 },
+  { name: "Thiago Silva", position: "DEF", club: "Chelsea", points: 80 },
+  { name: "Toni Kroos", position: "MID", club: "Real Madrid", points: 100 },
+  { name: "Kylian Mbappé", position: "FWD", club: "Paris Saint-Germain", points: 170 },
+  { name: "Rúben Dias", position: "DEF", club: "Manchester City", points: 88 },
+  { name: "Casemiro", position: "MID", club: "Manchester United", points: 97 }
+];

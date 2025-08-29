@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+body {
+   @apply bg-gray-100;
+}
+.authForm{
+   @apply bg-white flex flex-col justify-center w-[30%] mx-auto p-5 rounded-2xl shadow-md mt-10;
+   
+   h1{
+      @apply text-3xl font-bold mb-2 text-center;
+   }
+   >p:nth-of-type(1){
+      @apply text-gray-600 mb-4 text-center;
+   }
+   label{
+       @apply text-gray-700 text-sm font-semibold mb-2 block;
+   }
+   .inputs{
+      @apply flex justify-between items-center mb-2 gap-4;
+
+      div{
+         @apply w-[100%];
+      }
+   }
+   input, select{
+      @apply border border-gray-300 rounded-md p-2 w-full mb-4 focus:outline-none focus:ring-2 focus:ring-green-500;
+   }
+   button{
+      @apply bg-green-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-green-600 transition duration-200;
+   }
+   >p:nth-of-type(2){
+      @apply text-gray-600 text-sm mt-4 text-center;
+
+      a{
+         @apply text-green-500 underline hover:text-green-600;
+      }
+   }
+}
